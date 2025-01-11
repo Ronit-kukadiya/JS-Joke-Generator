@@ -5,7 +5,7 @@ let btn = document.querySelector(".random");
 setup.innerText = "";
 punch.innerText = "";
 async function getfact() {
-    btn.disabled = true;
+  btn.disabled = true;
   let responce = await fetch(url);
   let joke = await responce.json();
   setup.innerText = joke.setup + "...";
