@@ -1,0 +1,91 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  height: 8vh;
+  background-color: #93e85e;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: xx-large;
+}
+
+body {
+  background-color: #ffe401;
+}
+
+.setup {
+  justify-content: center;
+  margin-top: 10vh;
+  align-items: center;
+  display: flex;
+  font-size: xx-large;
+}
+
+.punch {
+  margin-top: 10vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: xx-large;
+}
+
+.random {
+  background-color: #fcb653;
+  margin-top: 15vh;
+  height: 10vh;
+  width: 23vh;
+  border-radius: 12px;
+  font-size: larger;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-self: center;
+}
+
+@media (max-width: 768px) {
+  .header {
+    font-size: large;
+  }
+  .setup,
+  .punch {
+    font-size: larger;
+  }
+  .random {
+    font-size: larger;
+    height: 8vh;
+    width: 20vh;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: medium;
+  }
+  .setup,
+  .punch {
+    font-size: medium;
+  }
+  .random {
+    font-size: medium;
+    height: 7vh;
+    width: 18vh;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    font-size: xx-large;
+  }
+  .setup,
+  .punch {
+    font-size: x-large;
+  }
+  .random {
+    font-size: larger;
+    height: 12vh;
+    width: 25vh;
+  }
+}
