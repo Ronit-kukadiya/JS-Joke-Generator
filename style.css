@@ -4,8 +4,8 @@
 }
 
 .header {
-  height: 8vh;
-  background-color: #93e85e;
+  height: 15vh;
+  background-color: #8ef051;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #ffe401;
+  background-color: #e6ff01;
 }
 
 .setup {
@@ -22,14 +22,20 @@ body {
   align-items: center;
   display: flex;
   font-size: xx-large;
+  height: 15vh;
+  width: 100%;
+  background-color: #e3fb11;
 }
 
 .punch {
-  margin-top: 10vh;
+  margin-top: 6vh;
   justify-content: center;
   align-items: center;
   display: flex;
   font-size: xx-large;
+  height: 15vh;
+  width: 100%;
+  background-color: #e3fb11;
 }
 
 .random {
@@ -47,11 +53,12 @@ body {
 
 @media (max-width: 768px) {
   .header {
-    font-size: large;
+    font-size: xx-large;
+    height: 12vh;
   }
   .setup,
   .punch {
-    font-size: larger;
+    font-size: x-large;
   }
   .random {
     font-size: larger;
@@ -62,7 +69,8 @@ body {
 
 @media (max-width: 480px) {
   .header {
-    font-size: medium;
+    height: 12vh;
+    font-size: xx-large;
   }
   .setup,
   .punch {
