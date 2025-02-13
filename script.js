@@ -12,7 +12,7 @@ async function getfact() {
   setTimeout(() => {
     punch.innerText = joke.punchline;
     btn.disabled = false;
-  }, 3000);
+  }, 4000);
 }
 btn.addEventListener("click", () => {
   setup.innerText = "";
